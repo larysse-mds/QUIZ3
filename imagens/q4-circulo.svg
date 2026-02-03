@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <!-- fundo do site -->
+  <defs>
+    <linearGradient id="bgSite4" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6e8efb"/>
+      <stop offset="100%" stop-color="#a777e3"/>
+    </linearGradient>
+  </defs>
+
+  <!-- fundo -->
+  <rect width="800" height="450" rx="30" fill="url(#bgSite4)"/>
+
+  <!-- cartão -->
+  <rect x="80" y="60" width="640" height="330" rx="26" fill="#ffffff"/>
+
+  <!-- título -->
+  <text x="400" y="120"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="32"
+        font-weight="900"
+        fill="#5a32a8">
+    Lados e vertices
+  </text>
+
+  <!-- GRUPO CENTRALIZADO DE VERDADE -->
+  <!-- centro do SVG: (400,225) -->
+  <!-- largura total do grupo ≈ 420px → metade ≈ 210 -->
+  <g transform="translate(400,225) translate(-210,-80)">
+
+    <!-- círculo -->
+    <g transform="translate(0,0)">
+      <circle cx="60" cy="60" r="60"
+              fill="#eef7ff"
+              stroke="#6e8efb"
+              stroke-width="6"/>
+      <text x="60" y="150"
+            text-anchor="middle"
+            font-size="18"
+            font-weight="900"
+            fill="#5a32a8">?</text>
+    </g>
+
+    <!-- quadrado -->
+    <g transform="translate(140,0)">
+      <rect x="0" y="0" width="120" height="120" rx="18"
+            fill="#f3ecff"
+            stroke="#a777e3"
+            stroke-width="6"/>
+      <text x="60" y="150"
+            text-anchor="middle"
+            font-size="18"
+            font-weight="900"
+            fill="#5a32a8">?</text>
+    </g>
+
+    <!-- triângulo -->
+    <g transform="translate(280,10)">
+      <polygon points="60,0 120,110 0,110"
+               fill="#eef7ff"
+               stroke="#6e8efb"
+               stroke-width="6"/>
+      <text x="60" y="150"
+            text-anchor="middle"
+            font-size="18"
+            font-weight="900"
+            fill="#5a32a8">?</text>
+    </g>
+
+  </g>
+
+  <!-- instrução -->
+  <text x="400" y="370"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="20"
+        font-weight="700"
+        fill="#666">
+    Observe as figuras
+  </text>
+</svg>

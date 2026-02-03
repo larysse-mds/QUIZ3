@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <rect width="800" height="450" rx="30" fill="#eafff6"/>
+  <rect x="50" y="50" width="700" height="350" rx="24" fill="#ffffff"/>
+
+  <text x="400" y="120" text-anchor="middle" font-family="Arial" font-size="36" font-weight="900" fill="#5a32a8">
+    Centenas • Dezenas • Unidades
+  </text>
+
+  <g transform="translate(120,160)">
+    <rect width="560" height="240" rx="22" fill="#f7f7ff" stroke="#d7d7ff" stroke-width="3"/>
+
+    <text x="110" y="55" text-anchor="middle" font-family="Arial" font-size="20" font-weight="900" fill="#333">CENTENAS</text>
+    <text x="280" y="55" text-anchor="middle" font-family="Arial" font-size="20" font-weight="900" fill="#333">DEZENAS</text>
+    <text x="450" y="55" text-anchor="middle" font-family="Arial" font-size="20" font-weight="900" fill="#333">UNIDADES</text>
+
+    <!-- 3 centenas (azul) -->
+    <g transform="translate(60,85)" fill="#6e8efb">
+      <rect x="0"  y="0" width="28" height="28" rx="6"/>
+      <rect x="36" y="0" width="28" height="28" rx="6"/>
+      <rect x="72" y="0" width="28" height="28" rx="6"/>
+    </g>
+
+    <!-- 0 dezenas (nenhum bloco) -->
+    <text x="280" y="120" text-anchor="middle" font-family="Arial" font-size="26" font-weight="900" fill="#ff6b6b">
+      0
+    </text>
+
+    <!-- 8 unidades (verde) -->
+    <g transform="translate(390,85)" fill="#4caf50">
+      <rect x="0"  y="0"  width="26" height="26" rx="6"/>
+      <rect x="32" y="0"  width="26" height="26" rx="6"/>
+      <rect x="64" y="0"  width="26" height="26" rx="6"/>
+      <rect x="96" y="0"  width="26" height="26" rx="6"/>
+      <rect x="0"  y="32" width="26" height="26" rx="6"/>
+      <rect x="32" y="32" width="26" height="26" rx="6"/>
+      <rect x="64" y="32" width="26" height="26" rx="6"/>
+      <rect x="96" y="32" width="26" height="26" rx="6"/>
+    </g>
+
+    <text x="280" y="210" text-anchor="middle" font-family="Arial" font-size="26" font-weight="900" fill="#222">
+      Numero: ____
+    </text>
+  </g>
+</svg>
