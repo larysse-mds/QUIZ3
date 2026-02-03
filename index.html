@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QUIZ ALICERCE</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main class="container">
+    <h1>Missão Matemática</h1>
+    <p class="subtitulo">Responda com calma. Você está indo bem.</p>
+
+    <div id="quiz">
+      <div class="barra-container">
+        <div id="barra-progresso"></div>
+      </div>
+
+      <p id="pergunta"></p>
+
+      <img
+        id="imagemPergunta"
+        src="./imagens/q1-405-zero.svg"
+        alt="Imagem da pergunta"
+        style="display: block; width:100%; max-width:320px; margin:10px auto; border-radius:15px;"
+      >
+
+      <div id="alternativas" class="botoes-grid"></div>
+
+      <p id="feedback"></p>
+      <p id="pontuacao">🌟 Estrelas: 0</p>
+
+      <button id="btnProximo" onclick="proximaPergunta()" style="display:none;">
+        Próxima Pergunta
+      </button>
+    </div>
+
+    <p class="credito roxo">Apoio Líder PCD Tia Ane Caroline</p>
+    <p class="credito preto">Criado por DevJr Larysse Mendes</p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
