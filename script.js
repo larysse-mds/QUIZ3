@@ -1,78 +1,63 @@
 const perguntas = [
   {
-    pergunta: "No número 405, o algarismo 0 serve para:",
-    alternativas: [
-      "Representar cinco unidades",
-      "Indicar que não há dezenas",
-      "Aumentar o valor do número",
-      "Representar centenas"
-    ],
+    pergunta: "Quanto é 2 + 3?",
+    alternativas: ["4", "5", "6", "7"],
     correta: 1,
-    imagem: "./imagens/q1-405-zero.svg"
+    imagem: "./imagens/q1-soma-basica.svg"
   },
   {
-    pergunta: "Qual número representa 3 centenas, 0 dezenas e 8 unidades?",
-    alternativas: ["308", "380", "38", "3008"],
-    correta: 0,
-    imagem: "./imagens/q2-308-bloquinhos.svg"
-  },
-  {
-    pergunta: "Qual figura plana possui quatro lados iguais e quatro ângulos retos?",
-    alternativas: ["Triângulo", "Círculo", "Retângulo", "Quadrado"],
-    correta: 3,
-    imagem: "./imagens/q3-quadrado.svg"
-  },
-  {
-    pergunta: "A figura que não possui lados nem vértices é o:",
-    alternativas: ["Quadrado", "Triângulo", "Retângulo", "Círculo"],
-    correta: 3,
-    imagem: "./imagens/q4-circulo.svg"
-  },
-  {
-    pergunta: "Qual é a ordem correta, do menor para o maior número?",
-    alternativas: [
-      "450 – 320 – 610",
-      "320 – 450 – 610",
-      "610 – 450 – 320",
-      "450 – 610 – 320"
-    ],
+    pergunta: "Qual forma tem 4 lados iguais?",
+    alternativas: ["Triângulo", "Quadrado", "Círculo", "Retângulo"],
     correta: 1,
-    imagem: "./imagens/q5-ordem-numeros.svg"
+    imagem: "./imagens/q2-quadrado.svg"
   },
   {
-    pergunta: "O número 732 escrito por extenso é:",
-    alternativas: [
-      "Setecentos e trinta e dois",
-      "Setenta e três e dois",
-      "Setecentos e vinte e três",
-      "Seiscentos e trinta e dois"
-    ],
-    correta: 0,
-    imagem: "./imagens/q6-732-extenso.svg"
-  },
-  {
-    pergunta: "Quanto é 358 + 247?",
-    alternativas: ["505", "595", "605", "615"],
+    pergunta: "Tenho 3 maçãs e ganho 2. Quantas tenho agora?",
+    alternativas: ["3", "4", "5", "6"],
     correta: 2,
-    imagem: "./imagens/q7-soma-358-247.svg"
+    imagem: "./imagens/q3-maças.svg"
   },
   {
-    pergunta: "Calcule: 800 − 356",
-    alternativas: ["454", "444", "456", "544"],
+    pergunta: "Qual forma NÃO tem cantos?",
+    alternativas: ["Quadrado", "Triângulo", "Círculo", "Retângulo"],
+    correta: 2,
+    imagem: "./imagens/q4-circulo-sem-cantos.svg"
+  },
+  {
+    pergunta: "Quanto é 10 - 4?",
+    alternativas: ["5", "6", "7", "8"],
     correta: 1,
-    imagem: "./imagens/q8-sub-800-356.svg"
+    imagem: "./imagens/q5-subtracao-10-4.svg"
   },
   {
-    pergunta: "Maçã: 20, Banana: 35, Laranja: 15. Qual fruta foi mais vendida?",
-    alternativas: ["Maçã", "Laranja", "Banana", "Todas igualmente"],
-    correta: 2,
-    imagem: "./imagens/q9-grafico-frutas-mais.svg"
+    pergunta: "Quantos lados tem um triângulo?",
+    alternativas: ["2", "3", "4", "5"],
+    correta: 1,
+    imagem: "./imagens/q6-triangulo-lados.svg"
   },
   {
-    pergunta: "No mesmo gráfico de frutas, qual foi a menos vendida?",
-    alternativas: ["Banana", "Maçã", "Laranja", "Todas igualmente"],
+    pergunta: "Tenho 5 bolinhas e ganho 2. Quantas ficam?",
+    alternativas: ["5", "6", "7", "8"],
     correta: 2,
-    imagem: "./imagens/q10-grafico-frutas-menos.svg"
+    imagem: "./imagens/q7-bolinhas.svg"
+  },
+  {
+    pergunta: "Qual número vem depois de 7?",
+    alternativas: ["6", "7", "8", "9"],
+    correta: 2,
+    imagem: "./imagens/q8-sequencia-numeros.svg"
+  },
+  {
+    pergunta: "Tenho 6 moedas. Perco 2. Quantas ficam?",
+    alternativas: ["3", "4", "5", "6"],
+    correta: 1,
+    imagem: "./imagens/q9-moedas.svg"
+  },
+  {
+    pergunta: "Qual forma tem 4 lados?",
+    alternativas: ["Círculo", "Triângulo", "Retângulo", "Estrela"],
+    correta: 2,
+    imagem: "./imagens/q10-retangulo.svg"
   }
 ];
 
